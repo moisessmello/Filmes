@@ -11,7 +11,7 @@ export default function Pagina(props) {
                     <Navbar.Brand href="./">{props.titulo}</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/filmes">Filmes</Nav.Link>
-                        <Nav.Link href="/series">Séries</Nav.Link>
+                        <Nav.Link href="./series">Séries</Nav.Link>
                         <Nav.Link href="/atores">Atores</Nav.Link>
                         <NavDropdown title="Disney" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/disney">

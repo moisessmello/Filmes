@@ -1,7 +1,6 @@
 export default function Cabecalho(props) {
 
     
-
     return (
         <>
             <div>
@@ -10,4 +9,5 @@ export default function Cabecalho(props) {
             </div>
         </>
     )
+   
 }
